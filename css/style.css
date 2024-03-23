@@ -107,32 +107,7 @@ aside{
     border-radius: 10px;
     overflow: hidden;
 }
-@media (max-width: 768px) {
-    /* Adjust font size and layout for smaller screens */
-    body {
-        padding: 1rem;
-        font-size: 0.9rem; /* Example adjustment */
-    }
 
-    /* Change the background image for the aside */
-    aside {
-        background-image: url(https://petapixel.com/assets/uploads/2016/09/version2-588x700.jpg);
-    }
-}
-
-/* Second media query for larger screens */
-@media (min-width: 1024px) {
-    /* Adjust font size and layout for larger screens */
-    body {
-        padding: 2rem;
-        font-size: 1.1rem; /* Example adjustment */
-    }
-
-    /* Change the background image for the aside */
-    aside {
-        background-image: url(https://petapixel.com/assets/uploads/2016/09/version2-588x700.jpg);
-    }
-}
 
 .mainelements{
     
