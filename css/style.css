@@ -14,6 +14,8 @@ body{
     font-size: 1rem;
     background: linear-gradient(to bottom left, red, white 57%);
 }
+
+
 .border {
     border: 2.5px solid #000; 
     border-radius: 20px; 
@@ -94,10 +96,12 @@ main{
     
     padding: 10px;
     margin-right: 20px;
+    
 }
 aside{
     
     padding: 10px;
+   
     margin: 15px;
     margin-right: 30px;
     background-image: url(https://petapixel.com/assets/uploads/2016/09/version2-588x700.jpg);
@@ -112,7 +116,8 @@ aside{
 .mainelements{
     
     display: grid;
-    grid-template-columns: 70% 30%;   
+    grid-template-columns: 70% 30%; 
+      
 }
 
 
@@ -221,4 +226,20 @@ input[type="submit"]:hover {
 }
 
 
+@media (max-width: 768px) {
+    body {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+    .mainelements{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
 
+/* Add a media query for even smaller screens */
+@media (max-width: 480px) {
+    body {
+        padding: 0.5rem; /* Further adjust padding for very small screens */
+    }
+    
+}
