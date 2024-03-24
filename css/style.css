@@ -44,7 +44,7 @@ nav ul {
 
   nav li a, .dropbtn {
     display: inline-block;
-    color: #8b008b;
+    color: black;
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
@@ -83,8 +83,15 @@ nav ul {
   }
  
 
-h1,h2{
+h1{
     color: #8b008b;
+    font-variant: small-caps;
+}
+h2{
+    color: purple;
+}
+.additional{
+    color: white;
     font-variant: small-caps;
 }
 footer p{
@@ -141,7 +148,7 @@ aside ul li {
 
 aside ul li a {
     text-decoration: none;
-    color: #cc1400;
+    color: white;
 }
 
 
@@ -233,6 +240,9 @@ input[type="submit"]:hover {
     .mainelements{
         grid-template-columns: repeat(1,1fr);
     }
+    aside{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDiLBsRctDDe2T-5AWA8batjtibWEY1Du-Q&usqp=CAU);
+    }
     
 }
 
@@ -240,6 +250,10 @@ input[type="submit"]:hover {
 @media (max-width: 480px) {
     body {
         padding: 0.5rem; /* Further adjust padding for very small screens */
+    }
+    aside{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs83urCJCUiHi3-vtsAvMa_yboUa7450z3Iw&usqp=CAU);
+
     }
     
 }
